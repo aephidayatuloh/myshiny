@@ -1,0 +1,17 @@
+myapp # main folder shiny app
+|--- data # subfolder for data
+|--- www  # public access subfolder 
+   |--- images # subfolder for images
+      |--- image1.jpg
+      |--- image2.png
+      |--- favicon.ico
+   |--- css # subfolder for CSS files
+      |--- style.css # CSS files 
+   |--- js # subfolder for JavaScript files
+      |--- file.js # JavaScript files 
+   |--- <others> # subfolder for others
+|--- R # folder for R script, automatically run alphabetically (default) 
+   |--- scripts.R 
+|--- myapp.Rproj # RStudio project file
+|--- app.R # main shiny app R file
+|--- global.R # global R file if needed, source("global.R")
